@@ -1,0 +1,26 @@
+
+
+.loginPleaseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.loginImage {
+  width: 254px;
+  height: 254px;
+}
+
+.loginText h4,
+.loginText p {
+    margin:0.5rem 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .loginPleaseContainer {
+    width: 400px;
+  }
+}

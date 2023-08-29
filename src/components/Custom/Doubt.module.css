@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+
+.doubt {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.doubtContainer > div{
+    margin: 2rem 0;
+}
+
+.doubtText {
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+}
+.doubtSolutionContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.doubtSpecialText {
+  font-size: 37px;
+  font-family: Licorice;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+
+@media screen and (min-width:800px) {
+  .doubtSolutionContainer {
+    flex-direction: row;
+  }
+}
+

@@ -1,0 +1,18 @@
+.linkContainer {
+  font-size: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.5rem 0;
+  padding: 0.2rem 1rem;
+}
+
+.linkContainer a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.linkContainer a:hover {
+  color: var(--brand-color);
+}

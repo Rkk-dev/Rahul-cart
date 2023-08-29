@@ -1,0 +1,53 @@
+.navShimmerParent {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.shine {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #e1e1d5 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    display: inline-block;
+    position: relative;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.box {
+    height: 60px;
+    width: 60px;
+}
+
+.lines {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 25px;
+    vertical-align: top;
+}
+
+.line {
+    height: 5px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+@keyframes placeholderShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}

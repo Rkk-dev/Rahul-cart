@@ -1,0 +1,68 @@
+.parent {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    gap: 1rem;
+}
+
+
+.parent .child {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #defa3e 0%, #e0f081 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-image: linear-gradient(to right,#f5f5ed 0%, #ffffff 20%, #ebebeb 40%, #ffffff 100%);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: DesktopShimmer;
+    animation-name: DesktopShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.parent .child {
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.child.product {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-image: linear-gradient(to right, #f5f5ed 0%, #ebebe3 20%, #e1e1d9 40%, #ffffff 100%);
+
+}
+
+.child.info {
+    grid-column: 1/-1;
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 800px) {
+    .child.child.product {
+        grid-column: 1 / -1;
+        grid-row: 1/3;
+    }
+
+    .child.info {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+@keyframes DesktopShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}

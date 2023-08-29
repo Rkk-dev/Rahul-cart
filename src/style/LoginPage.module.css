@@ -1,0 +1,21 @@
+.loginContainer {
+    background-color: var(--black-color);
+    background-image: url(../assets/UI/bgForGoodView.png);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.successContainer {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.successContainer div {
+    width: 40vw;
+    max-width: 400px;
+}

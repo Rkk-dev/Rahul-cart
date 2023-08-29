@@ -1,0 +1,92 @@
+.card {
+    border-radius: 10.668px;
+    border: 0.711px solid #f0f0f0d3;
+    background: #f6f6f6;
+    margin: 0 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCard {
+    width: 15rem;
+    flex-shrink: 0;
+}
+
+.gridCard {
+    width: auto;
+    height: 100%;
+}
+
+/* Top of Card */
+.cardTop {
+    text-align: center;
+    position: relative;
+    height: 200px;
+}
+
+.cardTop .productImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardTopHeader {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 0.2rem 0.5rem 0 0;
+}
+
+
+.cardTopHeaderBadge {
+    background: #222;
+    display: inline-flex;
+    padding: 7.112px 11.379px;
+    align-items: flex-start;
+    gap: 7.112px;
+    color: #fff;
+    font-size: 9.245px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Top of Card */
+
+
+/* Bottom of Card */
+.cardBottom {
+    background-color: var(--white-color);
+    padding: 1rem;
+    flex: 1;
+}
+
+.productPopularity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.productRating {
+    display: flex;
+    padding: 4.267px 3.556px;
+    align-items: flex-start;
+    gap: 7.112px;
+
+    border-radius: 3.556px;
+    background: #edece3;
+
+    color: var(--brand-color);
+    font-size: 7.112px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Bottom of Card */

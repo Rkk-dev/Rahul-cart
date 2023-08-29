@@ -1,0 +1,64 @@
+.luxFabricContainer {
+  background-image: url(../../assets/customize/LuxFabricMobile.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 2rem;
+  color: var(--white-color);
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+
+.luxMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.luxMobile h3,
+.luxMobile p {
+  margin: 0.5rem 0;
+}
+
+.luxMobile h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.luxMobile p {
+  font-size: 13.006px;
+  font-weight: 500;
+}
+
+.luxMobile-button a {
+  text-decoration: none;
+  color: inherit;
+}
+.luxDesktop {
+  display: none;
+}
+.fabrics-container {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .luxDesktop {
+    display: block;
+  }
+  .luxFabricContainer {
+    background-image: url("../../assets/customize/LuxFabricMobile.webp");
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    padding: 1px 0 6rem 4rem;
+    gap: 1rem;
+  }
+  .luxMobile {
+    align-items: flex-start;
+    text-align: start;
+  }
+}

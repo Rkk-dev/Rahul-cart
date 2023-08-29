@@ -1,0 +1,10 @@
+.fabricBox {
+  display: inline-flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+}

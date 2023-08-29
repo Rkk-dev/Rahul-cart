@@ -1,0 +1,16 @@
+.globalHeader,
+.globalHeaderRight {
+  display: flex;
+  align-items: center;
+}
+
+.globalHeader {
+  padding: 20px 16px;
+  justify-content: space-between;
+  background-color: var(--black-color);
+}
+
+.globalHeaderRight{
+  gap: 9px;
+}
+

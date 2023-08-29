@@ -1,0 +1,15 @@
+.productSize {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.productSize > span {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--brand-color);
+    color: var(--brand-color);
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}

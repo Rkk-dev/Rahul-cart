@@ -1,0 +1,11 @@
+.errorContainer {
+    width: 60%;
+    margin:6rem auto;
+    text-align: center;
+    color:var(--light-white-color);
+}
+
+.errorContainer span {
+    font-size: 4rem;
+    font-weight: bold;
+}

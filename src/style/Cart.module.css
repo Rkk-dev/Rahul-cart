@@ -1,0 +1,10 @@
+.emptyCartStyles {
+    width: 40vw;
+    max-width: 400px;
+    margin: 2rem auto;
+}
+
+.emptyCartText {
+    text-align: center;
+    
+}

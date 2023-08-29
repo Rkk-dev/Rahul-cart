@@ -1,0 +1,23 @@
+.loginBenefitsSectionContainer {
+  color: #020202;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.loginBenefitsSectionContainer span {
+  color: #adadad;
+  font-weight: 700;
+}
+
+.loginBenefitsSection {
+  margin: 0.5rem 0;
+}
+
+.loginBenefitsSection figure {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.5rem 0;
+}

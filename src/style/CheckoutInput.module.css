@@ -1,0 +1,26 @@
+.checkoutInput {
+    margin:0.5rem 0;
+}
+
+.checkoutInput input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #f6f6f6;
+  padding: 1rem;
+}
+
+.checkoutInput input:focus,
+.checkoutInput input:focus-visible {
+  outline: 2px solid var(--brand-color);
+}
+
+.checkoutInput input::placeholder {
+  color: #adadad;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}

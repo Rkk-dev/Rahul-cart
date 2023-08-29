@@ -1,0 +1,21 @@
+.product-popularity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.product-rating {
+  display: flex;
+  padding: 4.267px 3.556px;
+  align-items: flex-start;
+  gap: 7.112px;
+
+  border-radius: 3.556px;
+  background: #edece3;
+
+  color: var(--brand-color);
+  font-size: 7.112px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

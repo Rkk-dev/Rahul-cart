@@ -1,0 +1,104 @@
+.userContact {
+  background-image: url("../../assets//UI/contactBgMobile.png");
+  background-color: var(--black-color);
+  background-size: cover;
+  padding: 2rem 1rem;
+}
+
+/* Top */
+.userContactTop {
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+.userContactTopContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+.userContactTop span:nth-child(1) {
+  color: var(--brand-color);
+  font-size: 18px;
+}
+.userContactTop span:nth-child(2) {
+  color: var(--white-color);
+  font-size: 13.86px;
+}
+.userContactTop span:nth-child(3) {
+  color: var(--light-white-color);
+  font-size: 13.86px;
+}
+.userContactTop span a {
+  color: var(--brand-color);
+}
+
+/* Top */
+
+/* Bottom  */
+
+.userContactBottomContainer {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px);
+  margin: 2rem 1rem;
+  padding: 1rem;
+}
+
+.userBottomTop {
+  color: var(--brand-color);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.userBottomDown {
+  color: var(--white-color);
+  font-size: 13.86px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inputCheckBox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 0 0 0.5rem;
+}
+/* Bottom  */
+
+@media screen and (min-width: 800px) {
+  .userContact {
+    background-image: url("../../assets/UI/contactBgDesktop.png");
+    padding: 4rem 2rem;
+  }
+
+  .userContactTop span:nth-child(1) {
+    color: var(--brand-color);
+    font-size: 37px;
+  }
+}
+
+/* Desktop View */
+@media screen and (min-width: 800px) {
+  .userContactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .inputWrapper {
+    display: flex;
+  }
+}
+/* Desktop View */

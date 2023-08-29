@@ -1,0 +1,13 @@
+.checkoutContainer {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 800px) {
+  .checkoutContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 0 1.5rem;
+    margin: 2rem;
+  }
+}

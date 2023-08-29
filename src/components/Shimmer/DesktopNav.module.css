@@ -1,0 +1,40 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: auto;
+    gap: 0.5rem;
+}
+
+.parent .child {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #bea704 0%, #e7d80d 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    position: relative;
+
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: DesktopShimmer;
+    animation-name: DesktopShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.parent .child {
+    height: 10px;
+    border-radius: 1rem;
+}
+
+@keyframes DesktopShimmer {
+    0% {
+      background-position: -468px 0;
+    }
+    
+    100% {
+      background-position: 468px 0; 
+    }
+  }

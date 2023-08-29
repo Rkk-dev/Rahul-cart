@@ -1,0 +1,23 @@
+.signupContainer {
+    min-height: 100vh;
+    background-color: var(--black-color);
+    background-image:url("../assets/UI/bgForGoodView.png");
+    background-size: cover;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.successContainer {
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.successContainer div {
+    width: 50vw;
+    max-width: 400px;
+}

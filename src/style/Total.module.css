@@ -1,0 +1,29 @@
+.totalContainer {
+    padding: 1rem 0;
+    margin: 2rem 0;
+    border: 4px dashed var(--brand-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalItems h2 {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color:#474141;
+}
+
+.totalPrice {
+    font-size: 2rem;
+    color: #000;
+}
+
+@media screen and (min-width:820px) {
+    .totalContainer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 2rem 1rem;
+    }
+}

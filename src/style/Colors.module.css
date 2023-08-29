@@ -1,0 +1,46 @@
+.availabelColors {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.availabelColors .title {
+  color: var(--brand-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.availabelColors .colors {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  gap: 0.5rem;
+}
+
+.colorContainer {
+  width: 80px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.colorImage {
+  width: 50px;
+  height: 50px;
+  margin: 0.2rem auto;
+}
+
+.colorImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 2px solid var(--brand-color);
+}
+
+.colorName {
+  font-size: 0.7rem;
+  text-transform: capitalize;
+}
